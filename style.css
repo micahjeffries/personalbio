@@ -1,0 +1,43 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.navbar-brand img{
+    border-radius: 50%;
+}
+
+.d-sm-flex img {
+    border-radius: 20%;
+    padding-bottom: 20px;
+}
+
+.about-description {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.about-links {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.about-links:hover {
+    text-decoration: underline;
+}
+
+.footer-link {
+    padding: 5px;
+}
+
+.boxes a{
+    text-decoration: none;
+    color: white;
+}
+
+.boxes a:hover{
+    text-decoration: none;
+    padding-left: 20px;
+}
